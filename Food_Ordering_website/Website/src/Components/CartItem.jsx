@@ -1,6 +1,6 @@
 import { currencyFormatter } from '../util/formatting.js';
 
-export  function CartItem({
+export default function CartItem({
     name,
     quantity,
     price,
@@ -19,4 +19,4 @@ export  function CartItem({
             </p>
         </li>
     );
-} export default CartItem;
+}
