@@ -6,6 +6,8 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Adding Icons](#adding-icons)
+- [Adding Animations](#adding-animations)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
@@ -28,5 +30,32 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/react-food-order-app.git
+   git clone https://github.com/AmrShams9/react-food-order-app.git
    cd react-food-order-app
+
+
+
+
+
+
+
+   react-food-order-app/
+├── public/
+│   ├── logo.jpg
+│   └── index.html
+├── src/
+│   ├── assets/
+│   │   └── images/
+│   ├── components/
+│   ├── pages/
+│   ├── App.js
+│   ├── index.css
+│   ├── index.js
+│   └── ...
+├── package.json
+└── README.md
+
+
+
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
