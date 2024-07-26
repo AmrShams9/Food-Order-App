@@ -2,9 +2,9 @@ import { useContext } from 'react';
 
 import Modal from './UI/Modal.jsx';
 import CartContext from '../Store/CartContext.jsx';
-import Button from './UI/Button.jsx';
+import Button from "c:/Users/amrkh/Food-Order-App/Food_Ordering_website/Website/src/Components/UI/Button";
 import { currencyFormatter } from '../util/formatting.js';
-import UserProgressContext from '../store/UserProgressContext.jsx';
+import UserProgressContext from '../Store/UseProgressContext.jsx';
 import CartItem from './CartItem.jsx';
 
 export default function Cart() {
